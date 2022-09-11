@@ -1,0 +1,53 @@
+<view class="zhuye">
+<image src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fuier.ui.cn%2FPublic%2Fimg%2Fbody.jpg&refer=http%3A%2F%2Fuier.ui.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1657216331&t=197cdcaf9466337242f656424e2d2f02"> </image>
+<text bindtap="quit" type="default" class="login">退出登录</text>
+<view class="logo">
+    <!-- <text class="left">头像</text> -->
+    <image src="{{src}}" mode="widthFix" class="right" bindtap="chooseImg"></image>
+</view>
+<view class="ni">
+    <!-- <text class="left">昵称</text> -->
+    <text bindtap="update">{{msg}}</text>
+    <input type="text" disabled="{{1==t}}" class="rights" value="{{val}}" bindinput="getval"/>
+</view>
+<view class="zhong">
+    <image src="http://img60.ddimg.cn/upload_img/00487/11111/fukuan-07.png"></image>
+<text>待支付</text>
+<text class="tt">|</text>
+<image src="http://img63.ddimg.cn/upload_img/00487/11111/shouhuo-07.png"></image>
+<text>待收货</text>
+<text class="tt">|</text>
+<image src="http://img61.ddimg.cn/upload_img/00555/touch/pd-return.png"></image>
+<text>退换货</text>
+</view>
+</view>
+    <view class="top1">
+        <image src="http://img61.ddimg.cn/upload_img/00528/000/vip-1521514865.png"></image>
+        <text>会员中心</text>
+        <image src="http://home.m.dangdang.com/images/rightarrow_new.png" class="you"></image>
+    </view>
+    <view class="top2">
+        <navigator url="/pages/qiandao/qiandao"><image src="http://img61.ddimg.cn/upload_img/00487/11111/wd-012-04.png"></image>
+        <text>每日签到</text>
+        <image src="http://home.m.dangdang.com/images/rightarrow_new.png" class="you"></image></navigator>
+    </view>
+    <view class="top2">
+        <image src="http://img60.ddimg.cn/upload_img/00487/11111/wd-012-03.png"></image>
+        <text>积分抵现</text>
+        <image src="http://home.m.dangdang.com/images/rightarrow_new.png" class="you"></image>
+    </view>
+    <view class="top3">
+        <image src="http://img63.ddimg.cn/upload_img/00487/11111/wd-012-1.png"></image>
+        <text>我的订单</text>
+        <image src="http://home.m.dangdang.com/images/rightarrow_new.png" class="you"></image>
+    </view>
+    <view class="top3">
+        <image src="http://img63.ddimg.cn/upload_img/00487/11111/wd-012-05.png"></image>
+        <text>收获地址</text>
+        <image src="http://home.m.dangdang.com/images/rightarrow_new.png" class="you"></image>
+    </view>
+    <view class="top3">
+        <navigator url="/pages/zixun/zixun"><image src="http://img60.ddimg.cn/upload_img/00487/11111/wd-012-07.png"></image>
+        <text>客服反馈</text>
+        <image src="http://home.m.dangdang.com/images/rightarrow_new.png" class="you"></image></navigator>
+    </view>

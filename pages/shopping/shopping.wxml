@@ -1,0 +1,58 @@
+<view class="topp"><image src="cloud://cloud1-5gvrxep36f1ec7fc.636c-cloud1-5gvrxep36f1ec7fc-1309747488/product/ss.png" mode="widthFix"></image></view>
+<view class="header">
+    <image src="cloud://cloud1-5gvrxep36f1ec7fc.636c-cloud1-5gvrxep36f1ec7fc-1309747488/product/a3.png" mode="widthFix"></image>
+    <view class="shuru"><input type="text" placeholder-class="txt" placeholder="搜索"/></view> 
+   <view class="sou"><navigator url="/pages/vis/vis" open-type="switchTab">搜索</navigator></view>
+    <view class="login"><navigator url="/pages/login/login">登录</navigator></view>
+</view>
+<van-notice-bar
+  left-icon="volume-o"
+  text="用药安全：药不能多吃，就像恋爱一样，多了容易变渣！！！"
+/>
+<swiper autoplay="true" circular="true" indicator-dots="true" >
+    <swiper-item wx:for="{{banners}}">
+    <image mode="widthFix" src="{{item.src}}"></image>
+    </swiper-item>
+</swiper>
+
+<view class="hot {{index==2||index==3?'down':''}}" wx:for="{{lists}}">
+    <view>
+        <view wx:for="{{item.hots}}">
+            <navigator url="/pages/vis/vis" open-type="switchTab">
+            <image src="{{item.src}}" mode="widthFix"></image>
+            <text class="top">{{item.top}}</text>
+            </navigator>
+        </view>
+    </view>
+</view>
+
+<swiper class="swiper" vertical="true" autoplay="true">
+    <swiper-item>
+        <image src="https://res.360kad.com/theme/mobile/img/m_index_2019/jiankangtoutiao.png" mode="widthFix"></image>
+        <view><text class="txt">【高血压】</text>健康生活汇 | 如何预防高血压，减少高血压带来的疾病...</view>
+    </swiper-item>
+    <swiper-item>
+        <image src="https://res.360kad.com/theme/mobile/img/m_index_2019/jiankangtoutiao.png" mode="widthFix"></image>
+       <view><text class="txt">【痛风】</text>全球预计有24.6%的人患有痛风，有7000多种...</view>
+    </swiper-item>
+    <swiper-item>
+        <image src="https://res.360kad.com/theme/mobile/img/m_index_2019/jiankangtoutiao.png" mode="widthFix"></image>
+        <view><text class="txt">【高血压】</text>你还不知道吗，你每天吃的东西都可能含有不利于身体机能运转的毒素...</view>
+    </swiper-item>
+</swiper>
+
+<view class="san {{index==2||index==3?'down':''}}" wx:for="{{boxs}}">
+    <view class="titles">{{item.title}}<text class="tit">{{item.tit}}</text></view>
+    <text>---------------------------------------------</text>
+    <view>
+        <view wx:for="{{item.sans}}">
+           <image src="{{item.src}}" mode="widthFix"></image>
+            <text class="top">{{item.top}}</text>
+            <text class="des">{{item.des}}</text>
+        </view>
+    </view>
+</view>
+
+<navigator url="/pages/zixun/zixun"><image src="cloud://cloud1-5gvrxep36f1ec7fc.636c-cloud1-5gvrxep36f1ec7fc-1309747488/product/true.jpg" class="img"></image></navigator>
+
+<text class="dibu">—— —— 已经到底了哦 —— ——</text>

@@ -1,0 +1,136 @@
+page {
+  /* background: skyblue; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  
+}
+.search{
+  background: skyblue;
+  padding: 20rpx;
+  position: relative;
+}
+.search input{
+  background: #fff;
+  width: 710rpx;
+  border-radius: 10rpx;
+  height: 60rpx;
+}
+.search image{
+  position: absolute;
+  width: 40rpx;
+  top: 28rpx;
+  left: 30rpx;
+}
+
+.flex_row{
+  display: flex;
+  flex-direction: row;
+}
+
+.nav_left{
+  width: 25%;
+  height:100%;
+  overflow-y:auto; 
+  background: white;
+  margin-top: 4rpx;
+}
+.nav_left view{
+  padding: 20rpx 20rpx;
+  font-size: 16px;
+  position: relative;
+  /*转化行内块*/
+  display: inline-block;
+}
+/* .current text{
+  width:10px;
+  height: 2px;
+  background: skyblue;
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  margin-left: -5px;
+} */
+.nav_left .current{
+  color: skyblue;
+}
+.nav_left view{
+  margin-top: 15px;
+  text-align: center;
+  color: #383838;
+}
+.nav_right{
+  width: 75%;
+  position: relative;
+}
+.nav_right .nav_right_top{
+  padding-top:20rpx;
+  position: fixed;
+  top:0;
+  right:0;
+  width: 75%;
+  height:80rpx;
+  font-size:30rpx;
+ border-bottom: 1px solid #dedede;
+ display:flex;
+ flex-direction:row;
+ white-space: nowrap;
+ background: #fff;
+ z-index: 99
+}
+.san{
+  /* margin-top:40rpx; */
+  height:calc(100vh - 80rpx);
+  /* margin-top: 5rpx; */
+  margin-left: 8rpx;
+  margin-right: 8rpx;
+  background: white;
+
+}
+.san>view{
+  overflow: hidden;
+}
+.san view view view{
+  width: 170rpx;
+  float: left;
+  margin-left: 25rpx;
+}
+.san view view:nth-of-type(2n){
+  margin-left: 10rpx;
+}
+.san image{
+  width: 100rpx;
+  height: 100rpx;
+  margin-top: 30rpx;
+  margin-left: 10rpx;
+}
+.titles{
+  /* font-weight: bold; */
+  margin-bottom: 8rpx;
+  display: block;
+  font-size: 20px;
+  /* background: white; */
+  margin-top: 40rpx;
+  margin-bottom: 20rpx;
+  margin-left: 20rpx;
+  margin-right: 8rpx;
+  font-size: 14px;
+  color: #898989;
+}
+.san .top{
+  font-size: 13px;
+  display: block;
+  margin-left: 13rpx;
+  margin-top: 15rpx;
+  color: #383838;
+}
+
+.dibu{
+  background: white;
+  color: #383838;
+  text-align: center;
+  font-size: 13px;
+  display: block;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
