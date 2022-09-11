@@ -1,0 +1,130 @@
+page {
+  background: skyblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.top{
+  height: 45rpx;
+  width: 350rpx;
+  background-color: rgba(255,255,255,0.753);
+  border-radius: 10px;
+  margin-top: 100rpx;
+  /* margin-left: 20rpx; */
+  /* display: block; */
+  margin-left:auto;
+  margin-right: auto;
+}
+.top1{
+  height: 45rpx;
+  width: 550rpx;
+  background-color: rgba(255,255,255,0.753);
+  border-radius: 10px;
+  margin-top: 50rpx;
+  /* margin-left: 20rpx; */
+  /* display: block; */
+  margin-left:auto;
+  margin-right: auto;
+}
+.top .t1{
+  display: block;
+  text-align: center;
+  font-size: 12px;
+  color: #ccc;
+}
+.top1 .t2{
+  display: block;
+  text-align: center;
+  font-size: 12px;
+  color: #ccc;
+}
+.comment{
+  margin: 5px 20rpx;
+}
+.comment .logo{
+  vertical-align: middle;
+  width: 80rpx;
+  border-radius: 50%;
+  margin-top: 26px;
+}
+.comment view view text{
+  margin-left: 20rpx;
+  font-size: 14px;
+  font-size: 13px;
+  color: white;
+}
+.comment .vip{
+  width: 30rpx;
+  vertical-align: middle;
+  margin-left: 15rpx;
+}
+.comment .des{
+  padding: 20rpx 20px;
+  font-size: 13px;
+  background: white;
+  color: skyblue;
+  border-radius: 10px;
+  margin-left: 45px;
+}
+
+.pinlun{
+  width: 730rpx;
+  position: fixed;
+  left: 1rpx;
+  bottom: 1rpx;
+  background: white;
+  padding: 10px 10rpx;
+  overflow: hidden;
+}
+.pinlun .shuru{
+  float: left;
+  background: linear-gradient(90deg,#5dcf0c 0,#2dbe8f 30%,#03b0ff);
+  border-radius: 20rpx;
+  margin-left: 10px;
+}
+.pinlun image{
+  width: 70rpx;
+  float: left;
+  margin-right: 20rpx;
+  margin-left: 10rpx;
+  margin-top: 8rpx;
+  border-radius: 50%;
+}
+.pinlun input{
+  width: 386rpx;
+  height: 33px;
+  margin: 1px;
+  background: #2F4F4F;
+  border-radius: 20rpx;
+  color:#AFEEEE;
+}
+.pinlun.txt{
+  color:#ccc;
+  font-size: 12px;
+  text-align: center;
+}
+.sou button{
+  padding: 16rpx;
+  font-size: 12px;
+  color:#fff;
+  border-radius: 10rpx;
+  background: #c9c9c9;
+  float: right;
+  margin-top: 4px;
+margin-right: 10rpx;
+}
+.login navigator{
+  color: #696969;
+  font-size: 15px;
+  float: left;
+  margin: 15rpx 8px;
+} 
+.pinlun text{
+  float: right;
+  padding: 8rpx 7rpx;
+  background: #6495ED;
+  font-size: 12px;
+  color:#fff;
+  margin-right: 5px;
+  border-radius: 20rpx;
+} 

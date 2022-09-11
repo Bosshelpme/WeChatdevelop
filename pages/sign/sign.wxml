@@ -1,0 +1,28 @@
+<!-- <view class="bottom">
+    <image src="cloud://cloud1-5gvrxep36f1ec7fc.636c-cloud1-5gvrxep36f1ec7fc-1309747488/243.jpg" mode="widthFix"></image> -->
+<!-- </view>
+<text class="title">HELLO!</text>
+<text class="tit">Sign up to your account</text> -->
+<view class="box">
+<view class="fbox">
+<text>SIGN</text>
+</view>
+<view class="body">
+<form action="" bindsubmit="sign">
+    <label for="user">请注册你的用户名:</label>
+    <input type="text" id="user" name="user" placeholder-class="txt" placeholder="请输入用户名"/>
+    <text class="tips">{{user}}</text>
+
+    <label for="pass">请输入密码:</label>
+    <input type="password" id="pass"  name="pass" placeholder-class="txt" placeholder="请输入密码"/>
+    <text class="tips">{{pass}}</text>
+
+    <!-- <label for="pass">确认密码:</label>
+    <input type="password" id="pass"  name="pass"  placeholder-class="txt" placeholder="确认你的密码"/>
+    <text class="tips">{{pass}}</text> -->
+
+    <button type="default" form-type="submit"  style="width: 50%;">注册</button>
+</form>
+<navigator url="/pages/login/login">有账户please登录</navigator>
+</view>
+</view>

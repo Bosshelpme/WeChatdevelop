@@ -1,0 +1,236 @@
+page {
+  background: #eeeeee;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.topp{
+  background: skyblue;
+}
+.topp image{
+  width: 600rpx;
+  margin-left: 70rpx;
+  margin-top: 10px;
+}
+
+.header{
+  padding: 10px 10rpx;
+  overflow: hidden;
+  background: skyblue;
+}
+.header .shuru{
+  float: left;
+  background: linear-gradient(90deg,#5dcf0c 0,#2dbe8f 30%,#03b0ff);
+  border-radius: 20rpx;
+  margin-left: 10px;
+}
+.header image{
+  width:70rpx;
+  float: left;
+  margin-right: 20rpx;
+  margin-left: 10rpx;
+  margin-top: 14rpx;
+}
+.header input{
+  width: 386rpx;
+  height: 33px;
+  margin: 1px;
+  background: #2F4F4F;
+  border-radius: 20rpx;
+  color:#AFEEEE;
+}
+.header .txt{
+  color:#ccc;
+  font-size: 12px;
+  text-align: center;
+}
+.sou navigator{
+  padding: 18rpx;
+  font-size: 10px;
+  color:#fff;
+  border-radius: 50rpx;
+  background: #696969;
+  float: left;
+  margin-top: 4px;
+  margin-left:15px;
+}
+.login navigator{
+  color: #696969;
+  font-size: 15px;
+  float: left;
+  margin: 15rpx 8px;
+} 
+.header text{
+  float: right;
+  padding: 8rpx 7rpx;
+  background: #6495ED;
+  font-size: 12px;
+  color:#fff;
+  margin-right: 5px;
+  border-radius: 20rpx;
+} 
+
+swiper{
+  height: 250rpx;
+  }
+swiper image{
+  width: 750rpx;
+}
+
+.hot{
+    margin-top: 5rpx;
+    margin-left: 8rpx;
+    margin-right: 8rpx;
+    background: white;
+}
+.hot view view{
+    width: 240rpx;
+    float: left;
+}
+.hot view view:nth-of-type(2n){
+    margin-left: 10rpx;
+}
+.hot image{
+    width: 130rpx;
+    margin-left: 50rpx;
+    margin-top: 20rpx;
+    margin-bottom: 10rpx;
+}
+.hot .title{
+    font-weight: bold;
+    margin-bottom: 20rpx;
+    display: block;
+    margin-top: 20rpx;
+}
+.hot .top{
+    font-size: 14px;
+    display: block;
+    margin-left: 50rpx;
+    margin-bottom: 20rpx;
+}
+/* .hot .des{
+    font-size: 12px;
+    display: block;
+    color: #999;
+    margin-bottom: 20rpx;
+    margin-top: 8rpx;
+} */
+
+.down view view{
+    width: 230rpx;
+}
+.down image{
+    width: 230rpx;
+}
+.down view view:nth-of-type(2){
+    margin-right: 10rpx;
+}
+
+.swiper{
+  margin: 4px 10rpx;
+  height: 120rpx;
+  background: white;
+}
+.swiper image{
+  float: left;
+  width:70rpx;
+  height: 70rpx;
+  margin-right: 40rpx;
+  margin-left: 30rpx;
+  margin-top: 20rpx;
+  margin-bottom: 15rpx;
+}
+.swiper view{
+  width: 700rpx;
+  height: 120rpx;
+  /* float: left; */
+  font-size: 12px;
+  margin-top: 9px;
+}
+.swiper .txt{
+  font-size: 12px;
+  color: green;
+}
+.swiper scroll-view{
+  white-space: nowrap;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+}
+
+.san{
+    margin-top: 5rpx;
+    margin-left: 8rpx;
+    margin-right: 8rpx;
+    background: white;
+}
+.san view view{
+  width: 350rpx;
+  float: left;
+}
+.san view view:nth-of-type(2n){
+  margin-left: 10rpx;
+}
+.san image{
+  width: 360rpx;
+  margin-top: 30rpx;
+  margin-left: 10rpx;
+}
+.titles{
+  /* font-weight: bold; */
+  margin-bottom: 8rpx;
+  display: block;
+  font-size: 20px;
+  /* background: white; */
+  margin-top: 40rpx;
+  margin-bottom: 20rpx;
+  margin-left: 20rpx;
+  margin-right: 8rpx;
+}
+.tit{
+  /* float: left; */
+  font-size: 13px;
+  color: skyblue;
+  margin-left: 20rpx;
+}
+.san .top{
+  font-size: 14px;
+  display: block;
+  margin-left: 45rpx;
+}
+.san .des{
+  font-size: 13px;
+  display: block;
+  color: #999;
+  margin-bottom: 20rpx;
+  margin-top: 8rpx;
+  margin-left: 50rpx;
+}
+
+.down view view{
+  width: 230rpx;
+}
+.down image{
+  width: 200rpx;
+}
+.down view view:nth-of-type(2){
+  margin-right: 10rpx;
+}
+
+.img{
+  position: fixed;
+  right: 40rpx;
+  bottom: 80rpx;
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 50%;
+}
+
+.dibu{
+  background: white;
+  color: skyblue;
+  text-align: center;
+  margin-top: 20rpx;
+  margin-bottom: 5rpx;
+  margin-left: 5rpx;
+  font-size: 13px;
+}

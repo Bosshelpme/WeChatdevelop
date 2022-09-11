@@ -1,0 +1,24 @@
+<view class="top">
+    <text class="t1">即将建立对话，请稍等...</text>
+</view>
+<view class="top1">
+    <text class="t2">对话建立成功:工号3836陈药师为您服务</text>
+</view>
+<view class="comment" >
+    <view wx:for="{{coms}}"> 
+        <view >
+            <image src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Flmg.jj20.com%2Fup%2Fallimg%2Ftx25%2F020414034853284.png&refer=http%3A%2F%2Flmg.jj20.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1657005036&t=ae2541b459d23c437f9ade61d761ac4f" mode="widthFix"  class="logo"></image>
+            <text>客服001</text>
+            <image src="https://chat.360kad.com/Areas/Chat/Content/images/ico_kk.png" mode="widthFix" class="vip"></image>
+        </view>
+        <text class="des">{{item.con}}</text>
+    </view>
+</view>
+
+<form action="" bindsubmit="send">
+<view class="pinlun">
+  <image src="https://chat.360kad.com/Areas/Chat/Content/images/ico_close.png" mode="widthFix"></image>
+  <image src="https://chat.360kad.com/Areas/Chat/Content/images/ico_face.png" mode="widthFix"></image>
+  <view class="shuru"><input name="con" type="text" placeholder-class="txt" placeholder="输入..." id="" cols="30" rows="10" /></view>
+  <view class="sou"><button form-type="submit" style="width: 15%;">发送</button></view>
+</view></form>
